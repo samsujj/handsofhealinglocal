@@ -1,3 +1,24 @@
 .contentbind{
     display: inline !important;
 }
+
+/*---AboutUs--*/
+
+.aboutusblock1{padding-top: 36px; padding-bottom: 30px;}
+.aboutusblock1title img {margin: 0 0 25px 0; padding: 0 0 0px 0;}
+.aboutusblock1title h4 { font-family: 'yeseva_oneregular'; font-size: 21px; line-height: 24px; color: #cc9a02; margin-top: 0px; margin-bottom: 0px;}
+
+
+
+
+
+.aboutusblock2{padding-top: 30px; padding-bottom: 46px;}
+.aboutusblock2gallery{width:603px; float: left;background-color: #2f3c42;}
+
+
+
+.aboutusblock2info{width:550px; border: 1px solid #cbcbcb; float: right;}
+.aboutusblock2text{padding: 29px;}
+.aboutusblock2text h2{font-family: 'playfair_displaybold_italic';font-size: 36px; line-height: 24px; color: #9b4a00; margin-top: 0px; margin-bottom: 28px;}
+.aboutusblock2text p{font-family: 'raleway-regular';font-size: 18px; line-height: 24px; color: #2a2929;}
+.aboutusblock2text .divider{background-color: #9b4a00; width: 190px; height: 2px; margin-right: auto; margin-left: auto;margin-top: 129px;}

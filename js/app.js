@@ -219,6 +219,30 @@ r1headzappvar.config(function($stateProvider, $urlRouterProvider,$locationProvid
         }
     )
 
+        .state('aboutus',{
+            url:"/aboutus",
+            views: {
+
+                'content': {
+                    templateUrl: 'partial/aboutus.html' ,
+                    controller: 'aboutus'
+                },
+                'header': {
+                    templateUrl: 'partial/header.html' ,
+                    //controller: 'aboutus'
+                },
+                'footer': {
+                    templateUrl: 'partial/footer.html' ,
+                    //controller: 'aboutus'
+                },
+                'modalview': {
+                    templateUrl: 'partial/modalview.html' ,
+                    controller: 'aboutus'
+                },
+            }
+        }
+    )
+
 
         .state('addcontent',{
             url:"/add-content",
@@ -1086,6 +1110,12 @@ r1headzappvar.controller('editcontent', function(contentservice,$compile,$scope,
 
 
 r1headzappvar.controller('home', function($scope,$state,$cookieStore,$rootScope,contentservice) {
+
+
+
+});
+
+r1headzappvar.controller('aboutus', function($scope,$state,$cookieStore,$rootScope,contentservice) {
 
 
 

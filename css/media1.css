@@ -1,0 +1,27 @@
+
+@media(max-width:1199px) {
+}
+
+@media(max-width:991px) {
+    .aboutusblock1{width: 90%; margin-left: auto !important; margin-right: auto !important;}
+    .aboutusblock2{width: 90%; margin-left: auto !important; margin-right: auto !important;}
+    .aboutusblock2info {float: none; text-align: center; width: 100%;}
+}
+
+@media(max-width:767px) {
+
+}
+
+
+@media(max-width:580px) {
+
+}
+
+@media(max-width:640px) {
+
+}
+
+
+@media(max-width:480px) {
+
+}
